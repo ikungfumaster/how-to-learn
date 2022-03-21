@@ -123,7 +123,7 @@
   margin: 0;
 }
 
-.section-title {
+.digits__title {
   margin: auto;
   display: flex;
   justify-content: center;
@@ -134,7 +134,7 @@
   font-weight: bold;
 }
 
-.section-subtitle {
+.digits__subtitle {
   margin: auto;
   display: flex;
   justify-content: center;
@@ -175,7 +175,6 @@
 
 .feynman {
   padding-top: 100px;
-  display: flex;
   position: relative;
   background-color: #f2f2f2;
   border: solid;
@@ -192,17 +191,18 @@
   width: 648px;
   text-align: center;
   z-index: 1;
-  border: solid;
 
 }
 
 .feynman__subtitle {
+  position: relative;
+  width: 450px;
   margin: auto;
   text-align: center;
   line-height: 51px;
   font-size: 36px;
-  border: solid;
-  z-index: 1;
+  z-index: 2;
+  font-weight: normal;
 }
 
 .feynman__link {
@@ -211,27 +211,71 @@
   right: 48px;
   line-height: 51px;
   font-size: 36px;
-  border: solid;
+  font-weight: normal;
   color: #2f80ed;
 }
 
 .feynman_picture {
   position: absolute;
-  border: solid;
   height: 637px;
   width: 867px;
   bottom: 0;
   left: 0;
 }
 
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
+.kaufman {
+  background-color: #000000;
+  overflow: hidden;
+  margin-top: 90px;
+  margin-bottom: 90px;
 }
 
-/* и элемента с модификатором вида ключ-значение */
+.section-title {
+  margin: 0 auto 0;
+  width: 60%;
+  text-align: center;
+  line-height: 1.15;
+  font-weight: 60px;
+  font-weight: bold;
+  color: white;
+  z-index: -1;
+}
+
+.section-subtitle {
+  width: 60%;
+  text-align: center;
+  margin: 20px auto 0;
+  line-height: 34px;
+  font-weight: 24px;
+  font-weight: normal;
+  color: white;
+}
+
+.table {
+  margin: 0 auto 0;
+}
+
+.table__heading {
+  line-height: 1.15px;
+  font-weight: 24px;
+  font-weight: bold;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-weight: 18px;
+  font-weight: normal;
+}
+/*
+.triangle_place {
+  position: absolute;
+  height: 877px;
+  width: 877px;
+  background-color:  #2f80ed;
+  z-index: 0;
+}
+*/
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
