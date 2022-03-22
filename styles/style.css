@@ -1,11 +1,7 @@
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -19,8 +15,6 @@
   max-height: 756px;
   background-color: #f2f2f2;
   padding-left: 64px;
-
-  /* выше установили ограничения для секции */
 }
 
 .logo {
@@ -101,25 +95,22 @@
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
+}
+
+.two-columns__paragraph {
+  margin: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-}
-
-.main-text__first-part {
-  margin: 0;
-}
-
-.main-text__second-part {
-  margin: 20 0 20;
 }
 
 .two-columns__span-accent {
   font-weight: bold;
 }
 
-.main-text__third-part {
-  margin: 0;
+.two-columns__paragraph:nth-child(2) {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .digits {
@@ -236,7 +227,7 @@
   position: relative;
 }
 
-.section-title {
+.section-title_theme_dark {
   margin: 0 auto 0;
   width: 60%;
   text-align: center;
@@ -246,7 +237,7 @@
   z-index: 1;
 }
 
-.section-subtitle {
+.section-subtitle_theme_dark {
   width: 60%;
   text-align: center;
   margin: 20px auto 0;
@@ -256,19 +247,19 @@
   z-index: 1;
 }
 
-.table {
+.table_theme_dark {
   margin: 0 auto 0;
   justify-content: space-between;
   z-index: 1;
 }
 
-.heading {
+.table__heading_theme_dark {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
 }
 
-.text {
+.table__text_theme_dark {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
