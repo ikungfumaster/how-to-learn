@@ -217,7 +217,7 @@
 }
 
 .kaufman {
-  background-color: #000000;
+  background-color: #1f1f1f;
   overflow: hidden;
   padding-top: 90px;
   padding-bottom: 90px;
@@ -283,7 +283,7 @@
   padding-bottom: 40px;
   display: flex;
   min-height: 350px;
-  background-color: #000000;
+  background-color: #1f1f1f;
   color: white;
 }
 
@@ -319,6 +319,17 @@
 .footer__column-link {
   line-height: 30px;
   font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
 }
 
 .footer__column_content_info {
@@ -341,5 +352,4 @@
   height: 16px;
   width: 16px;
   padding-right: 10px;
-  color: #2f80ed;
 }
