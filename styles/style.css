@@ -1,3 +1,12 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+}
+to {
+    transform: rotate(360deg);
+}
+}
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -70,6 +79,8 @@
   height: 568px;
   width: 568px;
   background-color:  #2f80ed;
+  animation: rotation 20s linear infinite;
+  overflow: hidden;
 }
 
 .description {
@@ -137,6 +148,32 @@
   line-height: 34px;
   font-size: 24px;
   padding-top: 20px;
+}
+
+.cards {
+  border: solid black;
+}
+
+.section-title_techniqes {
+  margin: 0 auto 0;
+  width: 60%;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  z-index: 1;
+  border: solid black;
+}
+
+.section-subtitle_techniqes {
+  width: 60%;
+  text-align: center;
+  margin: 20px auto 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  z-index: 1;
+  border: solid black;
 }
 
 .table {
