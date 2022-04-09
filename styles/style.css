@@ -393,9 +393,8 @@ to {
 }
 
 .khan__book-container {
-  width: 80%;
   display: flex;
-  margin: 0 auto 0;
+  margin: 0;
 }
 
 .khan__book-pic {
