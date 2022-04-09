@@ -344,6 +344,73 @@ to {
   left: 0;
 }
 
+.khan {
+  margin: 0;
+  padding-top: 105px;
+}
+
+.khan__container {
+  width: 80%;
+  display: flex;
+  margin: 0 auto 0;
+  flex-direction: column;
+}
+
+.khan__author {
+  margin: 0;
+  height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.khan__title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.khan__quote {
+  margin: 50px 0 36px;
+  width: 790px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__quote-author {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.khan__quote-author-subline {
+  margin: 10px 0 68px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__book-container {
+  width: 80%;
+  display: flex;
+  margin: 0 auto 0;
+}
+
+.khan__book-pic {
+  margin: 0 48px 0 0;
+}
+
+.khan__buy-link {
+  margin: 0;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  color: #2f80ed;
+
+}
+
 .kaufman {
   background-color: #1f1f1f;
   overflow: hidden;
