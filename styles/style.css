@@ -236,8 +236,11 @@ to {
   border: 0 none;
 }
 
-
-
+.oakley {
+  width: 80%;
+  padding: 160px 140px 80px;
+  background-color: #F2F2F2;
+}
 
 .digits {
   margin: 100px 0 100px;
@@ -294,7 +297,6 @@ to {
 }
 
 .feynman {
-  padding-top: 100px;
   position: relative;
   background-color: #f2f2f2;
   height: 790px;
