@@ -203,7 +203,7 @@ to {
 
 .video__iframes {
   display: flex;
-  margin: 0 auto 0;
+  margin: 50px auto 0;
   justify-content: center;
   margin-bottom: -50px;
   border: 0 none;
@@ -447,12 +447,12 @@ to {
   width: 1100px;
 }
 
-.resources__logo {
+.resources__link {
   height: 38px;
   width: 270px;
 }
 
-.resources__link {
+.resources__logo {
   height: 38px;
   width: 270px;
 }
