@@ -24,6 +24,7 @@ to {
   max-height: 756px;
   background-color: #f2f2f2;
   padding-left: 64px;
+  overflow: hidden;
 }
 
 .logo {
@@ -60,7 +61,13 @@ to {
 }
 
 .header__link {
+  text-decoration: none;
   color: #2f80ed;
+}
+
+.header__link:hover {
+  transition: .5s;
+  opacity: .4;
 }
 
 .header__main-illustration {
@@ -132,7 +139,7 @@ to {
   width: 80%;
 }
 
-.section-title{
+.section-title {
   margin: 0 auto 0;
   width: 60%;
   text-align: center;
@@ -221,14 +228,13 @@ to {
 
 .oakley {
   width: 80%;
-  padding: 160px 140px 80px;
+  padding: 160px 160px 80px;
   background-color: #F2F2F2;
 }
 
 .digits {
   margin: 100px 0 100px;
 }
-
 
 .table {
   margin: 0 auto 100px;
@@ -274,7 +280,6 @@ to {
   width: 648px;
   text-align: center;
   z-index: 1;
-
 }
 
 .feynman__subtitle {
@@ -296,6 +301,12 @@ to {
   font-size: 36px;
   font-weight: normal;
   color: #2f80ed;
+  text-decoration: none;
+}
+
+.feynman__link:hover {
+  transition: .5s;
+  opacity: .4;
 }
 
 .feynman_picture {
@@ -364,12 +375,17 @@ to {
 }
 
 .khan__buy-link {
-  margin: 0;
+  align-self: baseline;
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
   color: #2f80ed;
+  text-decoration: none;
+}
 
+.khan__buy-link:hover {
+  transition: .5s;
+  opacity: .4;
 }
 
 .kaufman {
@@ -452,6 +468,11 @@ to {
   width: 270px;
 }
 
+.resources__link:hover{
+  transition: .5s;
+  opacity: .4;
+}
+
 .footer {
   padding-top: 60px;
   padding-bottom: 40px;
@@ -495,6 +516,11 @@ to {
   font-size: 18px;
   color: white;
   text-decoration: none;
+}
+
+.footer__column-link:hover {
+  transition: .5s;
+  opacity: .4;
 }
 
 li {
