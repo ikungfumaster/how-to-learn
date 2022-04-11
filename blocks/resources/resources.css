@@ -1,0 +1,9 @@
+@import url("./__link/resources__link.css");
+@import url("./__logo-zone/resources__logo-zone.css");
+
+
+.resources {
+    padding-top: 100px;
+    padding-bottom: 217px;
+    background-color: #f2f2f2;
+  }

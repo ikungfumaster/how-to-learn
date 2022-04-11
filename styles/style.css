@@ -28,15 +28,20 @@ to {
 }
 
 .logo {
-  height: 32px;
-  width: 183px;
+  z-index: 1;
 }
 
 .logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
-  z-index: 1;
+  height: 32px;
+  width: 183px;
+}
+
+.logo_place_footer {
+  height: 32px;
+  width: 183px;
 }
 
 .header__title {
@@ -443,7 +448,7 @@ to {
   margin-top: 80px;
 }
 
-.triangle_place {
+.kaufman__triangle {
   position: absolute;
   right: -210px;
   height: 877px;
