@@ -1,5 +1,4 @@
-.footer__social-icon {
-  height: 16px;
-  width: 16px;
-  padding-right: 10px;
+.footer__column_content_social {
+  display: flex;
+  flex-direction: column;
 }
